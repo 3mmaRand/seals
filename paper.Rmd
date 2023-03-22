@@ -2,9 +2,9 @@
 title: "Variation in myoglobin content of skeletal muscle of seal species."
 author: "Emma Rand"
 output:
-  bookdown::word_document2: default
   bookdown::pdf_document2: default
   bookdown::html_document2: default
+  bookdown::word_document2: default
 bibliography: reference.bib
 ---
 
@@ -54,7 +54,7 @@ sealsummary <- seal %>%
 ```
 
 We measured the myoglobin content of the skeletal muscle of `r sealsummary$n[1]` individuals in each of three species.
-We used R [@R-core] with tidyverse packages [@tidyverse] for all analyses and the rmarkdown [@rmarkdown] and bookdown [@bookdownbook, bookdown] packages for manuscript preparation.
+We used R [@R-core] with tidyverse packages [@tidyverse] for all analyses and the rmarkdown [@rmarkdown] and bookdown [@bookdownbook; @bookdown] packages for manuscript preparation.
 
 # Results {-#results}
 
