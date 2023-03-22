@@ -2,8 +2,8 @@
 title: "Variation in myoglobin content of skeletal muscle of seal species."
 author: "Emma Rand"
 output:
-  bookdown::pdf_document2: default
   bookdown::word_document2: default
+  bookdown::pdf_document2: default
   bookdown::html_document2: default
 bibliography: reference.bib
 ---
@@ -25,7 +25,7 @@ Seal species are also known to vary in dive length. We investigated whether the 
 
 (ref:weddell-fig) Baby Weddell Seals are very cute. By Photo © Samuel Blanc, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3877642
 
-```{r weddell-fig, out.height="300px", fig.cap='(ref:weddell-fig)'}
+```{r weddell-fig, out.height="300px", out.width="400px", fig.cap='(ref:weddell-fig)'}
 knitr::include_graphics("pics/Baby_Weddell_Seal.jpg")
 ```
 
